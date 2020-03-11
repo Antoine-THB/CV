@@ -1,0 +1,244 @@
+body {
+    text-align: center;
+    overflow-x: hidden;
+    font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-decoration: none;
+  }
+
+p {
+    line-height: 1.75;
+  }
+
+a {
+    color: red;
+    text-decoration: none;
+  }
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+    font-family: "Kaushan Script", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    padding-bottom: 20px;
+}
+h2{
+    font-size: 30px;
+}
+table{
+    margin: auto;
+}
+  
+a:hover {
+    color: red;
+    text-decoration: none;
+  }
+ 
+  
+.text-primary {
+    color: red !important;
+  }
+
+
+ .navbar .navbar-brand{
+    padding-top: 5px;
+    font-size: 20px;
+    font-family: 'Kaushan Script',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+    float:left;
+ } 
+
+.navbar {
+    background-color: #212529;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    padding: .5rem 1rem;
+  }
+
+.navbar .navbar-item a{
+    color: white;
+    text-decoration: none;
+}
+.navbar-nav{
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    display: flex;
+    float: right;
+    margin-top: 5px;
+}
+.navbar .navbar-item a:hover{
+    color: red;
+}
+.nav-link{
+    display: block;
+    padding-right: 30px;
+    font-size: 20px;
+}
+
+.intro{
+    background-image: url(img/back.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    width: 110%;
+    margin-left:-10px ;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    color: white;
+}
+
+
+.intro-lead-in{
+    margin-left: -8%;
+    font-size: 300%;
+}
+.intro-heading{
+    margin-left: -8%;
+    font-size: 200%;
+}
+.btn-intro{
+    margin-left: -8%;
+    margin-top: 50px;
+    padding: 20px 40px;
+    color: white;
+    background-color: red;
+    border-radius: .25rem;
+    display: inline-block;
+    font-size: 20px;
+}
+.btn-intro:hover{
+    color: red;
+    background-color: white;
+}
+.presentation {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #212529;
+    text-align: center;
+}
+.paragraphe_presentation{
+    font-size: 20px;
+
+}
+.QuiSuisJe{
+    margin: auto;
+    width: 60%;
+    border: 3px solid #212529;
+    border-radius: 10px;
+}
+.p_question{
+    color: red;
+}
+.table-profil{
+    padding-top: 60px;
+    font-size: 20px;
+    width: 80%;
+}
+.table-profil a{
+    color: #212529;
+}
+.table-profil a:hover{
+    color: red;
+}
+.table-profil img{
+    width: 70%;
+    margin: auto;
+}
+.logo{
+    width: 15px;
+}
+.insta{
+    vertical-align: top;
+}
+.experience img{
+    height: 200px;
+    width: 200px;
+}
+th,td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.connaissance{
+    background-color: #212529;
+    color: white;
+    margin-left: -10%;
+    margin-right: -10%;
+}
+.table-connaissances{
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.colonne{
+    width: 30%;
+}
+.table-connaissances img{
+    width: 150px;
+}
+.titre-tableau td{
+    height: 40px;
+}
+
+.experience{
+    margin-left: -10%;
+    margin-right: -10%;
+    background-color: #212529;
+    color: white;
+}
+.table_exp{
+    margin: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+.img_exp{
+    background-color: white;
+    width: 150px;
+    border: 7px solid red;
+    border-radius: 100%;
+}
+.droite{
+    margin-left: 25%;
+}
+.gauche{
+    margin-right: 25%;
+}
+.bord{
+    border-top: 1px solid white;
+}
+th{
+    width: 25%;
+}
+.taille {
+    margin: auto;
+    font-size: 20px;
+}
+.taille td{
+    text-align: left;
+}
+
+.passion img{
+    padding-top: 20px;
+    height: 400px;
+    padding-left: 15px ;
+}
+.titre_projet{
+    font-size: 20px;
+    text-decoration: underline;
+}
+.table_projet a{
+    color: #212529;
+}
+.table_projet a:hover{
+    color: red;
+}
